@@ -131,15 +131,19 @@
     <ClCompile Include="DoubleFactorial.cpp" />
     <ClCompile Include="JumbledNumbers.cpp" />
     <ClCompile Include="LuckyNumber.cpp" />
+    <ClCompile Include="MorseCode.cpp" />
     <ClCompile Include="NibbleToHex.cpp" />
     <ClCompile Include="NumberPalindromes.cpp" />
+    <ClCompile Include="Pangram.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoubleFactorial.h" />
     <ClInclude Include="JumbledNumbers.h" />
     <ClInclude Include="LuckyNumber.h" />
+    <ClInclude Include="MorseCode.h" />
     <ClInclude Include="NibbleToHex.h" />
     <ClInclude Include="NumberPalindromes.h" />
+    <ClInclude Include="Pangram.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

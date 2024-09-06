@@ -8,6 +8,8 @@
 #include "LuckyNumber.h"
 #include "JumbledNumbers.h"
 #include "NumberPalindromes.h"
+#include "Pangram.h"
+#include "MorseCode.h"
 using namespace std;
 
 int main()
@@ -17,11 +19,15 @@ int main()
     LuckyNumber LuckyNumber1 = LuckyNumber();
     JumbledNumbers JumbledNumbers1 = JumbledNumbers();
     NumberPalindromes NumberPali1 = NumberPalindromes();
+    Pangram Pangram1 = Pangram();
+    MorseCode MorseCode1 = MorseCode();
     //NibbleToHex1.ConvertNibbleToHex();
     //DoubleFactorial1.CalculateDF();
     //LuckyNumber1.CalculateLN();
     //JumbledNumbers1.CalculateJN();
-    NumberPali1.CalculateNP();
+    //NumberPali1.CalculateNP();
+    //Pangram1.CalculatePan();
+    MorseCode1.ConvertMorse();
     std::cout << "Hello World!\n";
 }
 
